@@ -1,0 +1,42 @@
+* {
+	 box-sizing: border-box;
+}
+
+body {
+	margin: 0 Auto;
+	background-color: #00aced;
+  
+}
+main {
+  color: white;
+  text-align: center;
+}
+h1, h2, h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+.trigger, .tweet {
+  color: white;
+  background-color: #00aced;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid white;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+
+.fa-twitter {
+	color: white;
+	font-size: 20px;
+	height: 18px;
+}
+
+.trigger:hover, .tweet:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
